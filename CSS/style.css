@@ -1,0 +1,9 @@
+body{
+    margin: 0 !important;
+    padding: 0!important;
+    direction: rtl;
+}
+.box{
+    margin-left: 155px;
+    margin-right: 158px;
+}
