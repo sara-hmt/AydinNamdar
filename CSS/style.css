@@ -43,7 +43,7 @@ body {
   background-color: #fcb816;
 }
 
-hr {
+.box hr {
   display: flex;
   justify-content: center;
   margin: 0;
@@ -61,9 +61,9 @@ hr {
   font-size: 56px;
   font-weight: normal;
   font-stretch: normal;
-  background-image: url('../image/highlight.png');
-background-repeat: no-repeat;
-background-position: 21% 38%;
+  background-image: url("../image/highlight.png");
+  background-repeat: no-repeat;
+  background-position: 21% 38%;
 }
 .Rectangle {
   font-size: 13px;
@@ -83,7 +83,7 @@ background-position: 21% 38%;
   position: relative;
   right: 280px;
 }
-.Rectangle img{
+.Rectangle img {
   position: relative;
   bottom: 3px;
 }
@@ -126,24 +126,65 @@ background-position: 21% 38%;
   bottom: 300px;
   right: 630px;
 }
-.Rectangle2 img{
+.Rectangle2 img {
   position: relative;
   bottom: 105px;
 }
 /***********bg1****************/
 
-
 /***********bg2****************/
-.bg2{
+.bg2 {
   width: 1199px;
   height: 648px;
-  background-image:url('../image/Group632559.png');
+  background-image: url("../image/Group632559.png");
 }
 /***********bg2****************/
-
 /***********bg3****************/
-
-
-
+.bg3 {
+  margin: 60px 106px 137px 102px;
+  width: 991px;
+  height: 345px;
+  display: flex;
+  flex-direction: column;
+}
+.bg3 p {
+  color: #fcb816;
+}
+.bg3-1 {
+  display: flex;
+  flex-direction: row;
+}
+.bg3-11 {
+  width: 489px;
+  height: 240px;
+  font-family: Peyda;
+  font-size: 24px;
+  font-weight: 600;
+}
+.bg3-12 {
+  font-family: Peyda;
+  font-size: 14px;
+  width: 465px;
+  height: 238px;
+}
+.bg3-2 {
+  width: 58px;
+  height: 38px;
+  flex-grow: 0;
+  margin: 0 0 2px;
+  font-family: Peyda(FaNum);
+  font-size: 16px;
+  font-weight: 500;
+}
+.bg3-2 a {
+  text-decoration: none;
+  color: black;
+}
+.bg3-2 hr {
+  display: flex;
+  justify-content: center;
+  margin: 2px 0 0;
+  width: 58px;
+  height: 1px;
+}
 /***********bg3****************/
-
