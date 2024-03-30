@@ -1,6 +1,6 @@
-@font-face{
+@font-face {
   font-family: Peyda;
-  src:url('../font/Peyda-Medium.ttf');
+  src: url("../font/Peyda-Medium.ttf");
 }
 body {
   font-family: Peyda;
@@ -34,7 +34,7 @@ body {
 }
 .btn {
   color: white;
-  font-family: Peyda(FaNum);
+  font-family: Peyda;
   font-size: 14px;
   font-weight: 500;
   width: 149px;
@@ -61,6 +61,11 @@ hr {
   font-size: 56px;
   font-weight: normal;
   font-stretch: normal;
+  background-image: url('../image/highlight.png');
+background-repeat: no-repeat;
+background-position: 21% 38%;
+
+
 }
 .Rectangle {
   font-size: 13px;
@@ -78,26 +83,53 @@ hr {
   border-radius: 12px;
   background-color: #0d0901;
   position: relative;
-  right: 320px;
+  right: 280px;
 }
-.box1{
+.Rectangle img{
+  position: relative;
+  bottom: 3px;
+}
+.box1 {
   width: 1031px;
   height: 494px;
   margin-top: 28px;
 }
-.hero-1{
-width: 132px;
-height: 78px;
-}  
-.hero-3{
+.hero-1 {
+  width: 132px;
+  height: 78px;
+}
+.hero-3 {
   width: 127px;
   height: 82px;
-  }  
-.toosi3{
-width:70px;
-height: 71px;
-}  
-.hero-2{
+}
+.toosi3 {
+  width: 70px;
+  height: 71px;
+}
+.hero-2 {
   width: 130px;
   height: 84px;
-  }  
+}
+.Rectangle2 {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  flex-grow: 0;
+  text-align: center;
+  margin: 11px 0 0;
+  padding: 17px 19px;
+  border-radius: 12px;
+  background-color: #0d0901;
+  width: 228px;
+  height: 100px;
+  position: relative;
+  bottom: 300px;
+  right: 630px;
+}
+.Rectangle2 img{
+  position: relative;
+  bottom: 105px;
+}
+/***********bg1****************/
