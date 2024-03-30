@@ -1,33 +1,31 @@
- body {
-    background-color: #fbf8f0;
-    margin: 0 !important;
+body {
+  background-color: #fbf8f0;
+  margin: 0 !important;
   padding: 0 !important;
   direction: rtl;
- 
 }
 .box {
   width: 1196px;
-    margin-left: 155px;
-    margin-right: 158px;
+  margin-left: 155px;
+  margin-right: 158px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-left: 155px;
   margin-right: 158px;
- 
 }
-.navbar, .container-fluid{
-    background-color: #fbf8f0;
+.navbar,
+.container-fluid {
+  background-color: #fbf8f0;
 }
-
 
 .navbar-nav {
-    font-size: 14px;
+  font-size: 14px;
   margin-right: 224px;
 }
-.bt1{
-    margin-left:53px;
+.bt1 {
+  margin-left: 53px;
 }
 .btn {
   color: white;
@@ -41,23 +39,40 @@
 }
 
 hr {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
   margin: 0;
   width: 1196px;
   height: 1px;
   background-color: #dddbe1;
-} 
-
+}
 
 /***********bg1****************/
-.bg1{
-    width: 1031px;
-    height: 494px;
-    background-color: #fcb816;
-    margin:55px 83px 87px 85px;
-    font-family: Peyda(FaNum);
+.bg1 {
+  width: 1031px;
+  height: 494px;
+  background-color: #fcb816;
+  margin: 55px 83px 87px 85px;
+  font-family: Peyda(FaNum);
   font-size: 56px;
   font-weight: normal;
   font-stretch: normal;
+}
+.Rectangle {
+  font-size: 13px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  width: 187px;
+  height: 125px;
+  margin: 0 0 11.8px;
+  padding: 19px 17px 20px 15px;
+  border-radius: 12px;
+  background-color: #0d0901;
+  position: relative;
+  right: 320px;
 }
