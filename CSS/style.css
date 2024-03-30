@@ -1,9 +1,48 @@
-body{
+ body {
+    background-color: #fbf8f0;
     margin: 0 !important;
-    padding: 0!important;
-    direction: rtl;
+  padding: 0 !important;
+  direction: rtl;
+ 
 }
-.box{
+.box {
+  width: 1196px;
     margin-left: 155px;
     margin-right: 158px;
+  display: flex;
+  justify-content: center;
+  margin-left: 155px;
+  margin-right: 158px;
+ 
 }
+.navbar, .container-fluid{
+    background-color: #fbf8f0;
+}
+
+
+.navbar-nav {
+    font-size: 14px;
+  margin-right: 224px;
+}
+.bt1{
+    margin-left:53px;
+}
+.btn {
+  color: white;
+  font-family: Peyda(FaNum);
+  font-size: 14px;
+  font-weight: 500;
+  width: 149px;
+  height: 42px;
+  border-radius: 50px;
+  background-color: #fcb816;
+}
+
+hr {
+    display: flex;
+    justify-content: center;
+  margin: 0;
+  width: 1196px;
+  height: 1px;
+  background-color: #dddbe1;
+} 
