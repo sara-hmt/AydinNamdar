@@ -10,7 +10,9 @@
     margin-left: 155px;
     margin-right: 158px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin-left: 155px;
   margin-right: 158px;
  
@@ -46,3 +48,16 @@ hr {
   height: 1px;
   background-color: #dddbe1;
 } 
+
+
+/***********bg1****************/
+.bg1{
+    width: 1031px;
+    height: 494px;
+    background-color: #fcb816;
+    margin:55px 83px 87px 85px;
+    font-family: Peyda(FaNum);
+  font-size: 56px;
+  font-weight: normal;
+  font-stretch: normal;
+}
