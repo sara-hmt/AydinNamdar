@@ -1,4 +1,9 @@
+@font-face{
+  font-family: Peyda;
+  src:url('../font/Peyda-Medium.ttf');
+}
 body {
+  font-family: Peyda;
   background-color: #fbf8f0;
   margin: 0 !important;
   padding: 0 !important;
@@ -51,7 +56,6 @@ hr {
 .bg1 {
   width: 1031px;
   height: 494px;
-  background-color: #fcb816;
   margin: 55px 83px 87px 85px;
   font-family: Peyda(FaNum);
   font-size: 56px;
@@ -76,3 +80,24 @@ hr {
   position: relative;
   right: 320px;
 }
+.box1{
+  width: 1031px;
+  height: 494px;
+  margin-top: 28px;
+}
+.hero-1{
+width: 132px;
+height: 78px;
+}  
+.hero-3{
+  width: 127px;
+  height: 82px;
+  }  
+.toosi3{
+width:70px;
+height: 71px;
+}  
+.hero-2{
+  width: 130px;
+  height: 84px;
+  }  
