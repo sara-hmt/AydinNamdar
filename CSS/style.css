@@ -64,8 +64,6 @@ hr {
   background-image: url('../image/highlight.png');
 background-repeat: no-repeat;
 background-position: 21% 38%;
-
-
 }
 .Rectangle {
   font-size: 13px;
@@ -133,3 +131,19 @@ background-position: 21% 38%;
   bottom: 105px;
 }
 /***********bg1****************/
+
+
+/***********bg2****************/
+.bg2{
+  width: 1199px;
+  height: 648px;
+  background-image:url('../image/Group632559.png');
+}
+/***********bg2****************/
+
+/***********bg3****************/
+
+
+
+/***********bg3****************/
+
